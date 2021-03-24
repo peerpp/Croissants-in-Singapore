@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #f8f5f1;
+  --secondary-color: #3a5080;
+  --tertiary-color: #e9896a;
+}
+
+body {
+  max-width: 800px;
+  font-family: "Roboto Mono", monospace !important;
+  background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+  color: var(--secondary-color) !important;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.contact-info {
+  font-weight: 900;
+  color: var(--tertiary-color) !important;
+}
+
+.tiongbahru {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border: double var(--tertiary-color);
+  border-radius: 8px;
+}
+
+a {
+  text-align: center;
+  display: block;
+}
+
+.emaillink {
+  color: var(--secondary-color) !important;
+}
